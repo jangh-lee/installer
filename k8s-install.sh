@@ -76,7 +76,7 @@ sudo apt-get update
 
 sleep 5
 
-sudo -y apt-get install \
+sudo apt-get -y install \
     apt-transport-https \
     ca-certificates \
     curl \
